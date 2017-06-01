@@ -55,11 +55,14 @@
 			                <classpathPrefix>lib/</classpathPrefix>
 			                <mainClass>com.dbakshintala.mtfbws.MTFBWebServer</mainClass>
 			            </manifest>
+			            
+			            <manifestEntries>
+			                <Class-Path>web/</Class-Path>
+			            </manifestEntries>
+			            
 			        </archive>
 			    </configuration>
 			</plugin>
-        
-		    
 		</plugins>
  	</build>
   

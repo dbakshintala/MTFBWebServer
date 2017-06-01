@@ -22,7 +22,7 @@ public class MTFBWebServer {
 
     private static final int DEFAULT_PORT = 9090;
     private static final int MAX_THREADS = 10;
-    private static final String DEFAULT_ROOT = "/\\web/\\";
+    private static final String DEFAULT_ROOT = "web/\\";
 
 
     private final String root;
